@@ -1,7 +1,7 @@
-var resolve = require("path").resolve;
-var webpack = require("webpack");
+const resolve = require("path").resolve;
 
 module.exports = {
+  mode: "development",
   entry: "./src/entry.js",
   output: {
     path: resolve(__dirname, "./dist"),
